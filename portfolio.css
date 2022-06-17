@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family-Poppins:wght@4e0;508;000;700&display-swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+a {
+
+text-decoration: none;
+
+}
+.navbar {
+position: absolute; 
+height: 100vh;
+background-image: url(img2.jpg);
+top: 50px;
+width: 100%;
+background-size: cover;
+}
+
+nav {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+ padding: 30px 100px;
+}
+.logo {
+    height: 300px;
+    width: 300px;
+    float: right;
+    border: 18px solid white;
+    border-radius: 50%;
+}
+ nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+ }
+
+ nav ul li {
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+
+ }
+ nav ul li a:hover{
+    color: rgb(245, 176, 87);
+ }
+
+ nav ul li a:after {
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: .35;
+    bottom: 0;
+}
+
+nav ul li a:hover:after {
+
+    width: 100%;
+}
+.btn {
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding: 16px 40px;
+   border-radius: 500px;
+   display: inline-block;
+   font-weight: 500;
+   transition: all .4s ease-in-out;
+   background-size: 152% 100%;
+   background: #fa8435;
+   border: 2px solid rgb(115, 4, 243);
+
+}
+
+.btn:hover {
+     background: transparent;
+    border-color: #fa8435;
+    color: rgb(245, 176, 87);
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    width: 80%;
+}
+ .content .title {
+     color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase; 
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #ee5fa2 20.69%,#3f3de9 58.19%, #fa353f 79.69%); 
+    -webkit-animation-play-state: running;
+    -webkit-text-fill-color: transparent;
+}
+   
+.content h1 {
+    color: #df8ec6;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px; 
+    text-transform: inherit;
+    width: 78%;
+}
+
+.content h1 span{
+    color: #a14082;
+}   
+    
+ .content p {
+    width: 55%;
+    color: #0e0d0d;
+    margin-top: 25px;
+    margin-bottom: 30px;
+ }
+ .content p1 {
+    width: 55%;
+    color: #363535;
+    margin-top: 25px;
+    margin-bottom: 30px;
+ }
